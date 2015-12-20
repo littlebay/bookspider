@@ -1,0 +1,356 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>英文科幻小说_英文小说网</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="英文科幻小说_英文小说网"/>
+<meta name="description" content="英文科幻小说_英文小说网"/>
+<meta name="mobile-agent" content="format=html5;url=http://novel.tingroom.com/wap/index.php?type=2&catid=30">
+<meta name="mobile-agent" content="format=xhtml;url=http://novel.tingroom.com/wap/index.php?type=2&catid=30">
+<link rel="shortcut icon" type="image/x-icon" href="http://novel.tingroom.com/favicon.ico"/>
+<link rel="bookmark" type="image/x-icon" href="http://novel.tingroom.com/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="/template/default/tingnovel/images/style1.css">
+<script type="text/javascript" src="http://novel.tingroom.com/lang/zh-cn/lang.js"></script>
+<script type="text/javascript" src="http://novel.tingroom.com/file/script/config.js"></script>
+<script type="text/javascript" src="http://novel.tingroom.com/file/script/jquery.js"></script>
+<script type="text/javascript" src="http://novel.tingroom.com/file/script/common.js"></script>
+<script type="text/javascript" src="http://novel.tingroom.com/file/script/page.js"></script>
+<script>
+GoMobile('http://novel.tingroom.com/wap/index.php?type=2&catid=30');
+</script>
+</head>
+<body>
+<script>
+function AddFavorite(sURL, sTitle) {
+ sURL = encodeURI(sURL); 
+ try{ 
+ window.external.addFavorite(sURL, sTitle); 
+ }catch(e) { 
+ try{ 
+ window.sidebar.addPanel(sTitle, sURL, ""); 
+ }catch (e) { 
+ alert("加入收藏失败，请使用Ctrl+D进行添加,或手动在浏览器里进行设置.");
+ } 
+ }
+ }
+ //设为首页
+ function SetHome(url){
+ if (document.all) {
+ document.body.style.behavior='url(#default#homepage)';
+ document.body.setHomePage(url);
+ }else{
+ alert("您好,您的浏览器不支持自动设置页面为首页功能,请您手动在浏览器里设置该页面为首页!");
+ }
+ }
+</script>
+<script type='text/javascript' src='http://partner.googleadservices.com/gampad/google_service.js'></script>
+<script type='text/javascript'>
+GS_googleAddAdSenseService("ca-pub-0119746079916199");
+GS_googleEnableAllServices();
+</script>
+<script type='text/javascript'>
+GA_googleUseIframeRendering();
+</script>
+<script type="text/javascript" src="/template/default/tingnovel/images/hc.js"></script>
+<div class="top_menu">
+<div class="f_r" id="destoon_member"></div>
+</div>
+<div class="area">
+  <div class="topz">
+    <div class="tops">
+      <div class="topsz"><a href="http://novel.tingroom.com/"><img src="/template/default/tingnovel/images/logoa.gif"></a></div>
+      <div class="topsy">
+        <div class="add"><script src="/guanggao/head-ad.js"></script></div>
+        <div id="qrcode">
+        <img width="75" height="75" src="/template/default/tingnovel/images/qrcode.jpg">
+        </div>
+        <div class="adda">
+        <ul>
+<li><a onclick="javascript:SetHome('http://novel.tingroom.com')" target="_self" href="javascript:void(0);">设为首页</a>&nbsp;<a onclick="javascript:AddFavorite('http://novel.tingroom.com','英文小说网')" target="_self" href="javascript:void(0);">收藏本站</a></li>
+            <li><a target="_self" href="/tag_list.php">tag标签</a>&nbsp;
+<a target="_self" href="/keywords_list.php">关键词列表</a></li>
+        </div>
+      </div>
+    </div>
+    <div class="topx">
+      <div class="topxz" align="center"><a href="/" class="hots">首页</a></div>
+      <div class="topxy">
+        <ul class="uul">
+          <li><a href="/jingdian/">经典英文小说</a><span>|</span></li>
+          <li><a href="/shuangyu/">双语小说</a><span>|</span></li>
+          <li><a href="/mingren/">英文名人传记</a><span>|</span></li>
+          <li><a href="/lizhi/">英文励志小说</a><span>|</span></li>
+          <li><a href="/duanpian/">英文短篇小说</a><span>|</span></li>
+          <li><a href="/kehuan/">英文科幻小说</a><span>|</span></li>
+          <li><a href="/ertong/">儿童英文小说</a><span>|</span></li>
+          <li><a href="/zongjiao/">英文宗教小说</a><span>|</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+function check(){
+document.formsearch.action="/search.php"
+} 
+</script>
+<div class="gundong">
+  <div class="gundong2">
+    <form  name="formsearch" action="" onSubmit="check();">
+      <strong>小说搜索</strong>：
+      <input name="kw" type="text" class="search-keyword" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
+&nbsp;&nbsp;<button class="btn_mouseout" type="submit"  style="width:89px; height:19px; padding-top:5px; border:0" title="搜索"></button>&nbsp;&nbsp;<a href="/count.php">点击排行榜</a>&nbsp;&nbsp; <a href="/new.php">最新入库</a></form>
+  </div>
+</div>
+<div class="area">
+  <div class="gundong">
+    <div class="gundong1"> <div style="width:100%;float:left;overflow:hidden;"> <a href="http://novel.tingroom.com/">首页</a> &raquo; 英文科幻小说</div></div>
+  </div>
+</div>
+<div class="zhongvb">
+  <div class="zhongz">
+    <div class="zhongzxun1fvv">
+      <div class="all003">
+          <div class="pages"><input type="hidden" id="destoon_previous" value="/kehuan/list_30_7.html"/><a href="/kehuan/list_30_7.html">&nbsp;&#171;上一页&nbsp;</a> <strong>&nbsp;1&nbsp;</strong>  <a href="/kehuan/list_30_2.html">&nbsp;2&nbsp;</a>  &nbsp;&#8230;&nbsp; <a href="/kehuan/list_30_3.html">&nbsp;3&nbsp;</a>   <a href="/kehuan/list_30_4.html">&nbsp;4&nbsp;</a>   <a href="/kehuan/list_30_5.html">&nbsp;5&nbsp;</a>  &nbsp;&#8230;&nbsp; <a href="/kehuan/list_30_6.html">&nbsp;6&nbsp;</a>   <a href="/kehuan/list_30_7.html">&nbsp;7&nbsp;</a>  <a href="/kehuan/list_30_2.html">&nbsp;下一页&#187;&nbsp;</a> <input type="hidden" id="destoon_next" value="/kehuan/list_30_2.html"/>&nbsp;<cite>共62条/7页</cite>&nbsp;<input type="text" class="pages_inp" id="destoon_pageno" value="1" onkeydown="if(event.keyCode==13 && this.value) {window.location.href='/kehuan/list_30_{destoon_page}.html'.replace(/\{destoon_page\}/, this.value);return false;}"> <input type="button" class="pages_btn" value="GO" onclick="if(Dd('destoon_pageno').value>0)window.location.href='/kehuan/list_30_{destoon_page}.html'.replace(/\{destoon_page\}/, Dd('destoon_pageno').value);"/></div>        <div class="all001xp1">
+<div style="width:100%;clear:both;"><script type="text/javascript" src="/template/default/tingnovel/images/fx.js"></script></div>
+          <!--循环共10个-->
+  <script type="text/javascript" src="http://xyz.tingroom.com/js/xyz_fm.js"></script>
+                    <!--循环结束-->
+          <div class="list">
+            <div class="picture"> <a href='/kehuan/1423'><img src='/template/default/tingnovel/images/defaultpic.gif'/></a> </div>
+            <div class="text">
+              <h6 class="yuyu"> <a href="/kehuan/1423" >奇迹岛的水 The Water of the Wondrous Isles</a> </h6>
+              <p class="cateq"> 类别：<a href='/kehuan'>英文科幻小说</a>&nbsp; <span class="point">
+              作者：
+                            未知
+                            &nbsp;
+              </span> </p>
+              <p class="intro11"><span>简介：</span> Whilom, as tells the tale, was a walled cheaping-town hight Utterhay, which was builded in a bight of the land a little off the great highway which went from over the mountains to the sea.The said town was hard on the borders of a wood, which men hel...</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  <!--循环结束-->
+                    <!--循环结束-->
+          <div class="list">
+            <div class="picture"> <a href='/kehuan/1298'><img src='/template/default/tingnovel/images/defaultpic.gif'/></a> </div>
+            <div class="text">
+              <h6 class="yuyu"> <a href="/kehuan/1298" >Round the Moon 环月旅行</a> </h6>
+              <p class="cateq"> 类别：<a href='/kehuan'>英文科幻小说</a>&nbsp; <span class="point">
+              作者：
+                            未知
+                            &nbsp;
+              </span> </p>
+              <p class="intro11"><span>简介：</span> From the Earth to the Moon与Round the Moon的中文译名分别为《从地球到月球》和《环月旅行》，两部小说前后呼应，构成了一个完整的故事。本书是充满传奇、冒险与幻想的科幻巨著，由法国著名作家、现代科幻小说之父儒勒凡尔纳编著。故事讲述的是美国南北战争结束后，一...</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  <!--循环结束-->
+                    <!--循环结束-->
+          <div class="list">
+            <div class="picture"> <a href='/kehuan/1295'><img src='http://novel.tingroom.com/file/upload/201505/26/09-45-02-60-1.jpg'/></a> </div>
+            <div class="text">
+              <h6 class="yuyu"> <a href="/kehuan/1295" >沙海漂流人 The Rover</a> </h6>
+              <p class="cateq"> 类别：<a href='/kehuan'>英文科幻小说</a>&nbsp; <span class="point">
+              作者：
+                            未知
+                            &nbsp;
+              </span> </p>
+              <p class="intro11"><span>简介：</span> 在金融危机中失去了所有财富的艾瑞克，四处流浪的他经历一群暴徒的抢劫，他们抢走了他最后的金钱，同时也带走了他身上所有人性美好的部分。艾瑞克决定反抗，他冒死追踪这帮暴徒，并得到了其中一位受伤的暴徒雷伊的帮助。...</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  <!--循环结束-->
+                    <!--循环结束-->
+          <div class="list">
+            <div class="picture"> <a href='/kehuan/1260'><img src='/template/default/tingnovel/images/defaultpic.gif'/></a> </div>
+            <div class="text">
+              <h6 class="yuyu"> <a href="/kehuan/1260" >Prior Analytics</a> </h6>
+              <p class="cateq"> 类别：<a href='/kehuan'>英文科幻小说</a>&nbsp; <span class="point">
+              作者：
+                            <a href="/writer/240.html">Aristotle 亚里士多德</a>
+                            &nbsp;
+              </span> </p>
+              <p class="intro11"><span>简介：</span> The Prior Analytics is Aristotle's work on deductive reasoning, which is known as his syllogistic. Being one of the six extant Aristotelian writings on logic and scientific method, it is part of what later Peripatetics called the Organon. Modern work...</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  <!--循环结束-->
+                    <!--循环结束-->
+          <div class="list">
+            <div class="picture"> <a href='/kehuan/1137'><img src='http://novel.tingroom.com/file/upload/201410/14/14-00-13-96-1.gif'/></a> </div>
+            <div class="text">
+              <h6 class="yuyu"> <a href="/kehuan/1137" >Of Time and the River</a> </h6>
+              <p class="cateq"> 类别：<a href='/kehuan'>英文科幻小说</a>&nbsp; <span class="point">
+              作者：
+                            未知
+                            &nbsp;
+              </span> </p>
+              <p class="intro11"><span>简介：</span> 本书包括《晶体领域》、《投机》、《肺鱼》等多篇中短篇作品，其中《肺鱼》已翻译为中文，于《科幻世界》杂志2008年3月号刊载。The River of Time brings together eleven shortstories, including quot;The Crystal Spheresquot; (WINNER: HugoAward Best SF Short Sto...</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  <!--循环结束-->
+                    <!--循环结束-->
+          <div class="list">
+            <div class="picture"> <a href='/kehuan/1119'><img src='/template/default/tingnovel/images/defaultpic.gif'/></a> </div>
+            <div class="text">
+              <h6 class="yuyu"> <a href="/kehuan/1119" >Nightmare</a> </h6>
+              <p class="cateq"> 类别：<a href='/kehuan'>英文科幻小说</a>&nbsp; <span class="point">
+              作者：
+                            未知
+                            &nbsp;
+              </span> </p>
+              <p class="intro11"><span>简介：</span> Gertrude BarrowsBennett (1883-1948) was the first major female writer of fantasy andscience fiction in the United States, publishing her stories under thepseudonym Francis Stevens. She completed school through the eighth gradethen attended night scho...</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  <!--循环结束-->
+                    <!--循环结束-->
+          <div class="list">
+            <div class="picture"> <a href='/kehuan/1099'><img src='/template/default/tingnovel/images/defaultpic.gif'/></a> </div>
+            <div class="text">
+              <h6 class="yuyu"> <a href="/kehuan/1099" >神秘的克虏伯 The Mystery of Cloomber</a> </h6>
+              <p class="cateq"> 类别：<a href='/kehuan'>英文科幻小说</a>&nbsp; <span class="point">
+              作者：
+                            <a href="/writer/42.html">Arthur Conan Doyle阿瑟·柯南·道尔</a>
+                            &nbsp;
+              </span> </p>
+              <p class="intro11"><span>简介：</span> When John Hunter West, an Edinburgh solicitor, falls on hard times, a relation offers him and his two children a home on his Branksome Estate, set on the bleak and remote western coast of Scotland. But the family's new life is disturbed by the arriva...</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  <!--循环结束-->
+                    <!--循环结束-->
+          <div class="list">
+            <div class="picture"> <a href='/kehuan/1084'><img src='http://novel.tingroom.com/file/upload/201408/06/10-18-31-54-1.jpg'/></a> </div>
+            <div class="text">
+              <h6 class="yuyu"> <a href="/kehuan/1084" >月亮池 The Moon Pool</a> </h6>
+              <p class="cateq"> 类别：<a href='/kehuan'>英文科幻小说</a>&nbsp; <span class="point">
+              作者：
+                            未知
+                            &nbsp;
+              </span> </p>
+              <p class="intro11"><span>简介：</span> Dr. Walter T. Goodwin is sailing back to New York after a botanical expedition to the South Seas when he meets his old friend, Dr. David Throckmartin. The heartbroken Throckmartin relates a haunting tale to Dr. Goodwin-a tale of a tropical island and...</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  <!--循环结束-->
+                    <!--循环结束-->
+          <div class="list">
+            <div class="picture"> <a href='/kehuan/1079'><img src='/template/default/tingnovel/images/defaultpic.gif'/></a> </div>
+            <div class="text">
+              <h6 class="yuyu"> <a href="/kehuan/1079" >A Modern Theory of Ethics</a> </h6>
+              <p class="cateq"> 类别：<a href='/kehuan'>英文科幻小说</a>&nbsp; <span class="point">
+              作者：
+                            未知
+                            &nbsp;
+              </span> </p>
+              <p class="intro11"><span>简介：</span> WHETHER this book is modern in the good sense or the bad sense of that irritating word is for the reader to judge. I have tried to produce an ethical theory which should be both impregnated by the polliniferous wind of contemporary thought, and yet n...</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  <!--循环结束-->
+                    <!--循环结束-->
+          <div class="list">
+            <div class="picture"> <a href='/jingdian/1046'><img src='http://novel.tingroom.com/file/upload/201406/10/07-55-51-76-1.jpg'/></a> </div>
+            <div class="text">
+              <h6 class="yuyu"> <a href="/jingdian/1046" >福尔摩斯归来记 THE RETURN OF SHERLOCK HOLMES</a> </h6>
+              <p class="cateq"> 类别：<a href='/kehuan'>英文科幻小说</a>&nbsp; <span class="point">
+              作者：
+                            <a href="/writer/42.html">Arthur Conan Doyle阿瑟·柯南·道尔</a>
+                            &nbsp;
+              </span> </p>
+              <p class="intro11"><span>简介：</span> 一八九四年的春天，整个伦敦对可敬的罗纳德艾德尔十分不寻常而神秘的谋杀事件极其关切，上流社会的人们更因此事丧胆。一般大众已由警方的侦查结果得知 罪案的特点，但是在当时仍有许多内容事实隐而不宣，因为这案子的起诉理由十分有力，因此就没有必要把所有的事实分布...</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+  <!--循环结束-->
+                    <div class="pages"><input type="hidden" id="destoon_previous" value="/kehuan/list_30_7.html"/><a href="/kehuan/list_30_7.html">&nbsp;&#171;上一页&nbsp;</a> <strong>&nbsp;1&nbsp;</strong>  <a href="/kehuan/list_30_2.html">&nbsp;2&nbsp;</a>  &nbsp;&#8230;&nbsp; <a href="/kehuan/list_30_3.html">&nbsp;3&nbsp;</a>   <a href="/kehuan/list_30_4.html">&nbsp;4&nbsp;</a>   <a href="/kehuan/list_30_5.html">&nbsp;5&nbsp;</a>  &nbsp;&#8230;&nbsp; <a href="/kehuan/list_30_6.html">&nbsp;6&nbsp;</a>   <a href="/kehuan/list_30_7.html">&nbsp;7&nbsp;</a>  <a href="/kehuan/list_30_2.html">&nbsp;下一页&#187;&nbsp;</a> <input type="hidden" id="destoon_next" value="/kehuan/list_30_2.html"/>&nbsp;<cite>共62条/7页</cite>&nbsp;<input type="text" class="pages_inp" id="destoon_pageno" value="1" onkeydown="if(event.keyCode==13 && this.value) {window.location.href='/kehuan/list_30_{destoon_page}.html'.replace(/\{destoon_page\}/, this.value);return false;}"> <input type="button" class="pages_btn" value="GO" onclick="if(Dd('destoon_pageno').value>0)window.location.href='/kehuan/list_30_{destoon_page}.html'.replace(/\{destoon_page\}/, Dd('destoon_pageno').value);"/></div>          <div style="height: 20px; background: none repeat scroll 0% 0% rgb(254, 247, 220); width: 751px;"></div>
+        </div>
+        <div class="all001xpa"></div>
+      </div>
+    </div>
+  </div>
+  <div class="zhongy">
+    <div class="youzong">
+      <div class="zhongys">
+        <div class="zhongzls1"></div>
+        <div class="zhongzls2x">类型分类</div>
+        <div class="zhongzls3"></div>
+      </div>
+      <div class="youxxkk">
+        <ul>
+        <li><a href='/shuangyu/' >双语小说</a></li>
+      <li><a href='/jingdian/' >经典英文小说</a></li>
+      <li><a href='/mingren/' >英文名人传记</a></li>
+      <li><a href='/lizhi/' >英文励志小说</a></li>
+      <li><a href='/duanpian/' >英文短篇小说</a></li>
+      <li><a href='/kehuan/' >英文科幻小说</a></li>
+      <li><a href='/ertong/' >儿童英文小说</a></li>
+      <li><a href='/zongjiao/' >英文宗教小说</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="youzong">
+      <div class="zhongys">
+        <div class="zhongzls1"></div>
+        <div class="zhongzls2x">栏目推荐</div>
+        <div class="zhongzls3"></div>
+      </div>
+      <div class="youxx">
+      <ul>
+<li><span>1.</span><a href="/kehuan/935" target="_blank" title="Caught In The Net 落网">Caught In The Net 落网</a></li>
+<li><span>2.</span><a href="/kehuan/209" target="_blank" title="海底两万里 Twenty Thousand Leagues Under The Sea">海底两万里 Twenty Thousa</a></li>
+<li><span>3.</span><a href="/kehuan/83" target="_blank" title="Artemis Fowl: The Eternity Code永恒的密码">Artemis Fowl: The Eterni</a></li>
+<li><span>4.</span><a href="/kehuan/52" target="_blank" title="The Golden Compass黄金罗盘">The Golden Compass黄金罗</a></li>
+</ul>      </div>
+    </div>
+    
+        <div class="youzongdo">
+      <div class="zhongys">
+        <div class="zhongzls1"></div>
+        <div class="zhongzls2x">热门小说</div>
+        <div class="zhongzls3"></div>
+      </div>
+      <div class="youxx">
+      <ul>
+<li><span>1.</span><a href="/shuangyu/453" target="_blank" title="老人与海 The Old Man and the Sea">老人与海 The Old Man and</a></li>
+<li><span>2.</span><a href="/shuangyu/139" target="_blank" title="暮光之城：暮色 Twilight">暮光之城：暮色 Twilight</a></li>
+<li><span>3.</span><a href="/shuangyu/872" target="_blank" title="飘 Gone With The Wind">飘 Gone With The Wind</a></li>
+<li><span>4.</span><a href="/shuangyu/172" target="_blank" title="谁动了我的奶酪? Who Moved My Cheese?">谁动了我的奶酪? Who Move</a></li>
+<li><span>5.</span><a href="/shuangyu/759" target="_blank" title="杀死一只知更鸟 To Kill a Mockingbird">杀死一只知更鸟 To Kill a</a></li>
+<li><span>6.</span><a href="/mingren/309" target="_blank" title="克林顿自传：My Life">克林顿自传：My Life</a></li>
+<li><span>7.</span><a href="/jingdian/96" target="_blank" title="Rich Dad Poor Dad穷爸爸富爸爸">Rich Dad Poor Dad穷爸爸</a></li>
+<li><span>8.</span><a href="/lizhi/37" target="_blank" title="The Shawshank Redemption肖申克的救赎">The Shawshank Redemption</a></li>
+<li><span>9.</span><a href="/shuangyu/319" target="_blank" title="了不起的盖茨比 The Great Gatsby">了不起的盖茨比 The Great</a></li>
+<li><span>10.</span><a href="/shuangyu/283" target="_blank" title="夏洛的网 Charlotte's Web">夏洛的网 Charlotte's Web</a></li>
+<li><span>11.</span><a href="/shuangyu/42" target="_blank" title="The Stories Of O.Henry欧亨利短篇小说集">The Stories Of O.Henry欧</a></li>
+<li><span>12.</span><a href="/ertong/881" target="_blank" title="安徒生童话全集">安徒生童话全集</a></li>
+<li><span>13.</span><a href="/jingdian/73" target="_blank" title="Pride And prejudice傲慢与偏见">Pride And prejudice傲慢</a></li>
+<li><span>14.</span><a href="/shuangyu/327" target="_blank" title="木偶奇遇记 The Adventures of Pinocchio">木偶奇遇记 The Adventure</a></li>
+<li><span>15.</span><a href="/shuangyu/1208" target="_blank" title="The Giver 记忆传授人">The Giver 记忆传授人</a></li>
+</ul>      </div>
+    </div>
+    
+  </div>
+</div>
+<!--弹出MSG效果-->
+<div id="maos_msg" class="maos_msg_class">
+  <div id="alert_msg" style="height: 40px; line-height: 40px; display: none;">...</div>
+  <input name="" onclick="close_maos_msg()" value="确定" type="button">
+</div>
+<div id="maos_fade" class="maos_msg_fade_class"></div>
+<div class="aream" align="center">
+ <p class="banquan"><P class=banquan>&copy;英文小说网 2005-2010 </P>
+  <P>有任何问题，请给我们<a href="http://bbs.tingroom.com/forum-10-1.html" target="_blank">留言</a>，管理员邮箱：<a href="mailto:tinglishi@gmail.com">tinglishi@gmail.com</a> &nbsp;站长QQ ：<a target=_blank href="tencent://message/?uin=56065533&amp;Site=英文小说网/&amp;Menu=yes"><img border="0" src=http://wpa.qq.com/pa?p=1:56065533:4 alt="点击发送消息和我们联系">56065533</a></p>
+  <P class=banquan><a href="http://www.miibeian.gov.cn/" target="_blank">鲁ICP备05031204号</a><br /><script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src=" + _bdhmProtocol + "hm.baidu.com/h.js%3Fadaf29565debc85c07b8d3c36c148a6b type=text/javascript%3E%3C/script%3E"));
+</script> <script>var lainframe;</script>
+<script language="javascript" type="text/javascript" src="http://js.users.51.la/4184026.js"></script>
+</p>
+</div>
+<script type="text/javascript">
+show_task('moduleid=1025&html=list&catid=30&page=1');
+</script></body>
+</html>
