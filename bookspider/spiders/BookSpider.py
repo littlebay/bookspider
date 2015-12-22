@@ -1,50 +1,51 @@
 # -*-coding:utf-8 -*-
-import scrapy
-from scrapy.spiders import CrawlSpider,Rule
+from scrapy.spiders import CrawlSpider, Rule
 from scrapy.linkextractors import LinkExtractor
-from items import BookspiderItem
+from bookspider.items import BookspiderItem
 
 
 class BookSpider(CrawlSpider):
-	name="novel"
-	
-	def __init__(self,rule):
-		self.rule=rule
-		self.name=rule.spidername
-		self.allowed_domains=rule.allowed_domains.split(",")
-		self.start_urls=rule.start_urls.split(",")
-		rule_list=[]
-		#添加下一页规则
-		if rule.next_page:
-			rule_list.append(Rule(LinkExtractor(restrict_xpaths=[rule.next_page])))
-		#抽取文章链接规则
-		rule_list.append(Rule(LinkExtractor(allow=[rule.allow_url],restrict_xpaths=[rule.extract_from]),callback='parse_item'))
-		self.rules=tuple(rule_list)
-		super(BookSpider,self).__init__()
+    name = "novel"
 
-  
-	def parse_item(self,response):
-		self.log('Hi, this is an novel page! %s' % response.url)
-		item = BookspiderItem()
-		item["link"] = response.url
+    def __init__(self, rule):
+        self.rule = rule
+        self.name = rule.spidername
+        self.allowed_domains = rule.allowed_domains.split(",")
+        self.start_urls = rule.start_urls.split(",")
+        rule_list = []
+        try:
+            # 添加下一页规则
+            if rule.next_page:
+                rule_list.append(Rule(LinkExtractor(restrict_xpaths=[rule.next_page])))
+            # 抽取文章链接规则
+            rule_list.append(
+                Rule(LinkExtractor(allow=[rule.allow_url], restrict_xpaths=[rule.extract_from]), callback='parse_item'))
+            self.rules = tuple(rule_list)
+        except e:
+            print "规则不完整"
+        super(BookSpider, self).__init__()
 
-		bookename = response.xpath(self.rule.bookename_xpath).extract()
-		item["bookename"] = bookename[0] if bookename else ""
+    def parse_item(self, response):
+        self.log('Hi, this is an novel page! %s' % response.url)
+        item = BookspiderItem()
+        item["link"] = response.url
 
-		#body = response.xpath(self.rule.body_xpath).extract()
-		#item["body"] =  '\n'.join(body) if body else ""
+        bookname = response.xpath(self.rule.bookname_xpath).extract()
+        item["bookname"] = bookname[0] if bookname else ""
 
-		author= response.xpath(self.rule.author_xpath).extract()
-		item["author"] = author[0] if author else ""
+        # body = response.xpath(self.rule.body_xpath).extract()
+        # item["body"] =  '\n'.join(body) if body else ""
 
-		picture= response.xpath(self.rule.picture_xpath).extract()
-		item["picture"] = picture[0] if picture else ""
-		
-		type= response.xpath(self.rule.type_xpath).extract()
-		item["type"] = type[0] if type else ""
-		
-		intro= response.xpath(self.rule.intro_xpath).extract()
-		item["intro"] = intro[0] if intro else ""
-		
-		return item
-        
+        author = response.xpath(self.rule.author_xpath).extract()
+        item["author"] = author[0] if author else ""
+
+        picture = response.xpath(self.rule.picture_xpath).extract()
+        item["picture"] = picture[0] if picture else ""
+
+        type = response.xpath(self.rule.type_xpath).extract()
+        item["type"] = type[0] if type else ""
+
+        intro = response.xpath(self.rule.intro_xpath).extract()
+        item["intro"] = intro[0] if intro else ""
+
+        return item

@@ -5,51 +5,38 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
-
-
-from scrapy import log
-from twisted.enterprise import adbapi
-from scrapy.http import Request
 from scrapy.exceptions import DropItem
-from scrapy.contrib.pipeline.images import ImagesPipeline
-import ConfigParser
-import string
-import time
-import MySQLdb
-import MySQLdb.cursors
-import socket
-import select
-import sys
-import os
-import errno
+from model.config import DBSession
+from model.book import Book
 
-class BookspiderPipeline(object):
-    BASE_DIR = os.path.dirname(__file__) 
-    DIR=BASE_DIR+"/model/db.cfg"
-    cf=ConfigParser.ConfigParser()
-    cf.read(DIR)
-    def __init__(self):
-        BASE_DIR = os.path.dirname(__file__) 
-        DIR=BASE_DIR+"/model/db.cfg"
-        cf=ConfigParser.ConfigParser()
-        cf.read(DIR)
-        self.dbpool = adbapi.ConnectionPool('MySQLdb',
-            db = cf.get("db","db_name"),
-            user =cf.get("db","db_user"),
-            passwd = cf.get("db","db_passwd"),
-            cursorclass = MySQLdb.cursors.DictCursor,
-            charset = 'utf8',
-            use_unicode = False
-        )
-       
+
+class BookSpiderPipeline(object):
+    def open_spider(self, spider):
+        self.session = DBSession()
+
     def process_item(self, item, spider):
-        query = self.dbpool.runInteraction(self._conditional_insert, item)
-        return item
+        a = Book(bookname=item["bookname"].encode("utf-8"),
+                 author=item["author"].encode("utf-8"),
+                 intro=item["intro"].encode("utf-8"),
+                 picture=item["picture"].encode("utf-8"),
+                 type=item["type"].encode("utf-8")
+                 )
+        self.session.add(a)
+        self.session.commit()
 
-    def _conditional_insert(self, tx, item):
-        BASE_DIR = os.path.dirname(__file__) 
-        DIR=BASE_DIR+"/model/db.cfg"
-        cf=ConfigParser.ConfigParser()
-        cf.read(DIR)
-        sql=cf.get("SQL","book")
-        tx.execute(sql, (item['bookname'], item['author'],item['intro'],item['picture'],item['type']))
+    def close_spider(self, spider):
+        self.session.close()
+
+
+class DuplicatesPipeline(object):
+    def __init__(self):
+        self.ids_seen = set()
+
+    def process_item(self, item, spider):
+        if item['bookname'] in self.ids_seen:
+            raise DropItem("Duplicate item found: %s" % item)
+        else:
+            self.ids_seen.add(item['bookname'])
+            return item
+
+
